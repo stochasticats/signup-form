@@ -65,3 +65,22 @@ body {
     position: absolute;
     bottom: 0px;
 }
+
+.form-section {
+    display: flex;
+    width: 60vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    flex-grow: 2;
+    background-color: rgb(240, 240, 240);
+}
+
+.input-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 1.2rem 2vw 3rem 2vw;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.123);
+}
