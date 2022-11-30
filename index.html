@@ -26,7 +26,29 @@
                     <p>You know you want to.</p>
                 </div>
             </div>
-            <div></div>
+            <div>
+                
+                <div class="input-section">
+                    <p>Sign up!</p>
+                    <form id="signup-form">
+                        <label for="firstname">First Name</label>
+                        <input type="text" id="firstname" name="firstname" />
+                        <label for="lastname">Last Name</label>
+                        <input type="text" id="lastname" name="lastname" />
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="alice@example.com" />
+                        <label for="phone"></label>
+                        <input type="tel" id="phone" name="phone" />
+                        <label for="pass">Password</label>
+                        <input type="password" id="pass" name="password" minlength="8" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required />
+                        <div id="password-error" class="error"></div>
+                        <label for="passC">Confirm Password</label>
+                        <input type="password" id="" name="passC" minlength="8" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required />
+                        <div id="password-error" class="error"></div>
+                    </form>
+                </div>
+
+            </div>
             <div class="submit">
                 <div>
                     <button type="submit"></button>
