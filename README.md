@@ -1,6 +1,8 @@
 # Sign-up Form
 Sign up form done in HTML, CSS, and JavaScript
 
+![](https://github.com/stochasticats/signup-form/blob/main/img/Sign-up%20Form.pdf)
+
 ## Live
 [View here](https://stochasticats.github.io/signup-form/).
 
