@@ -35,7 +35,7 @@
                         <label for="email">Email</label>
                         <input type="email" id="email" name="email" placeholder="alice@example.com" />
                         <label for="phone">Phone Number</label>
-                        <input type="tel" id="phone" name="phone" />
+                        <input type="tel" id="phone" name="phone" minlength="10" maxlength="10"/>
                         <label for="pass">Password</label>
                         <input type="password" id="pass" name="password" minlength="8" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required />
                         <div id="password-error" class="error"></div>
@@ -45,7 +45,6 @@
                     </form>
                 </div>
             </div>
-
             <div class="submit-section">
                 <div>
                     <button type="submit" form="signup-form">Create Account</button>
@@ -53,7 +52,6 @@
                 </div>
             </div>
         </div>
-
     </div>
 </body>
 </html>
