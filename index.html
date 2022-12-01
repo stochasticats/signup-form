@@ -39,9 +39,10 @@
                         <label for="pass">Password</label>
                         <input type="password" id="pass" name="password" minlength="8" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,}$" required />
                         <div id="password-error" class="error"></div>
-                        <label for="passC">Confirm Password</label>
+                        <label for="passC">Confirm Password
+                            <div id="passwordC-error" class="error"></div>
+                        </label>
                         <input type="password" id="passC" name="passC" minlength="8" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,}$" required />
-                        <div id="password-error" class="error"></div>
                     </form>
                 </div>
             </div>
@@ -53,5 +54,6 @@
             </div>
         </div>
     </div>
+    <script src="script.js" defer></script>
 </body>
 </html>
