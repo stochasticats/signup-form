@@ -7,7 +7,7 @@ const passCError = document.getElementById("passwordC-error");
 passC.addEventListener("input", e => {
     if (passC.value !== pass.value) {
         passCError.textContent = "Passwords do not match";
-        passC.setCustomValidity("Invalid field.");
+        passC.setCustomValidity("Passwords do not match!");
     } else {
         passCError.textContent = "";
         passC.setCustomValidity("");
