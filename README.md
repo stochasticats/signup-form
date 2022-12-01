@@ -1,4 +1,8 @@
 # Sign-up Form
 Sign up form done in HTML and CSS
 
--- WORK IN PROGRESS --
+# Live
+[View here](https://stochasticats.github.io/signup-form/).
+
+#To do
+Add Javascript validator for password
