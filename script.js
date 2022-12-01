@@ -2,7 +2,6 @@
 const pass = document.getElementById("pass");
 const passC = document.getElementById("passC");
 const passCError = document.getElementById("passwordC-error");
-const form = document.getElementById("signup-form");
 
 // event listeners
 passC.addEventListener("input", e => {
