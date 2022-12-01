@@ -37,10 +37,10 @@
                         <label for="phone">Phone Number</label>
                         <input type="tel" id="phone" name="phone" minlength="10" maxlength="10"/>
                         <label for="pass">Password</label>
-                        <input type="password" id="pass" name="password" minlength="8" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required />
+                        <input type="password" id="pass" name="password" minlength="8" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,}$" required />
                         <div id="password-error" class="error"></div>
                         <label for="passC">Confirm Password</label>
-                        <input type="password" id="" name="passC" minlength="8" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required />
+                        <input type="password" id="passC" name="passC" minlength="8" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,}$" required />
                         <div id="password-error" class="error"></div>
                     </form>
                 </div>
